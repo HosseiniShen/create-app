@@ -1,0 +1,26 @@
+{
+  "name": "create-app",
+  "version": "1.0.0",
+  "description": "Command line interface for web application",
+  "main": "index.js",
+  "bin": {
+    "vm": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HosseiniShen/create-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HosseiniShen/create-app/issues"
+  },
+  "homepage": "https://github.com/HosseiniShen/create-app#readme",
+  "dependencies": {
+    "commander": "^7.2.0"
+  }
+}
