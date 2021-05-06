@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/HosseiniShen/create-app#readme",
   "dependencies": {
-    "commander": "^7.2.0"
+    "commander": "^7.2.0",
+    "globby": "^11.0.3",
+    "isbinaryfile": "^4.0.8"
   }
 }
