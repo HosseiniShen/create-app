@@ -23,6 +23,8 @@
   "dependencies": {
     "commander": "^7.2.0",
     "globby": "^11.0.3",
-    "isbinaryfile": "^4.0.8"
+    "isbinaryfile": "^4.0.8",
+    "javascript-stringify": "^2.1.0",
+    "js-yaml": "^4.1.0"
   }
 }
