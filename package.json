@@ -26,6 +26,7 @@
     "isbinaryfile": "^4.0.8",
     "javascript-stringify": "^2.1.0",
     "js-yaml": "^4.1.0",
-    "slash": "3.0.0"
+    "slash": "3.0.0",
+    "vue-codemod": "^0.0.5"
   }
 }
