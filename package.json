@@ -22,6 +22,8 @@
   "homepage": "https://github.com/HosseiniShen/create-app#readme",
   "dependencies": {
     "commander": "^7.2.0",
+    "ejs": "^3.1.6",
+    "fs-extra": "^10.0.0",
     "globby": "^11.0.3",
     "isbinaryfile": "^4.0.8",
     "javascript-stringify": "^2.1.0",
