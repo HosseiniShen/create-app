@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/HosseiniShen/create-app#readme",
   "dependencies": {
+    "chalk": "^4.1.1",
     "commander": "^7.2.0",
     "ejs": "^3.1.6",
     "execa": "^5.0.0",
@@ -30,6 +31,7 @@
     "javascript-stringify": "^2.1.0",
     "js-yaml": "^4.1.0",
     "slash": "3.0.0",
+    "strip-ansi": "^7.0.0",
     "vue-codemod": "^0.0.5"
   }
 }
