@@ -2194,6 +2194,11 @@ node-dir@^0.1.17:
   dependencies:
     minimatch "^3.0.2"
 
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "http://npm.zmops.cc/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha1-BFvTI2Mfdu0uK1VXM5RBa2OaAFI=
+
 node-modules-regexp@^1.0.0:
   version "1.0.0"
   resolved "http://npm.zmops.cc/node-modules-regexp/-/node-modules-regexp-1.0.0.tgz#8d9dbe28964a4ac5712e9131642107c71e90ec40"
