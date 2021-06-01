@@ -993,11 +993,6 @@ ansi-regex@^5.0.0:
   resolved "http://npm.zmops.cc/ansi-regex/-/ansi-regex-5.0.0.tgz#388539f55179bf39339c81af30a654d69f87cb75"
   integrity sha1-OIU59VF5vzkznIGvMKZU1p+Hy3U=
 
-ansi-regex@^6.0.0:
-  version "6.0.0"
-  resolved "http://npm.zmops.cc/ansi-regex/-/ansi-regex-6.0.0.tgz#ecc7f5933cbe5ac7b33e209a5ff409ab1669c6b2"
-  integrity sha1-7Mf1kzy+WsezPiCaX/QJqxZpxrI=
-
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "http://npm.zmops.cc/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
@@ -2668,19 +2663,12 @@ string-width@^4.1.0, string-width@^4.2.0:
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.0"
 
-strip-ansi@^6.0.0:
+strip-ansi@6.0.0, strip-ansi@^6.0.0:
   version "6.0.0"
   resolved "http://npm.zmops.cc/strip-ansi/-/strip-ansi-6.0.0.tgz#0b1571dd7669ccd4f3e06e14ef1eed26225ae532"
   integrity sha1-CxVx3XZpzNTz4G4U7x7tJiJa5TI=
   dependencies:
     ansi-regex "^5.0.0"
-
-strip-ansi@^7.0.0:
-  version "7.0.0"
-  resolved "http://npm.zmops.cc/strip-ansi/-/strip-ansi-7.0.0.tgz#1dc49b980c3a4100366617adac59327eefdefcb0"
-  integrity sha1-HcSbmAw6QQA2ZhetrFkyfu/e/LA=
-  dependencies:
-    ansi-regex "^6.0.0"
 
 strip-final-newline@^2.0.0:
   version "2.0.0"
