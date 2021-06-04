@@ -1,0 +1,32 @@
+{
+  "name": "vm-plugin-vue",
+  "version": "1.0.0",
+  "description": "Vue plugin for vm-cli",
+  "keywords": [
+    "vue"
+  ],
+  "author": "sxxRaul <975547545@qq.com>",
+  "homepage": "https://github.com/HosseiniShen/create-app#readme",
+  "license": "ISC",
+  "main": "lib/vm-plugin-vue.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.zmops.cc/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HosseiniShen/create-app.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/HosseiniShen/create-app/issues"
+  }
+}

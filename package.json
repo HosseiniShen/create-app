@@ -1,39 +1,7 @@
 {
   "name": "create-app",
-  "version": "1.0.0",
-  "description": "Command line interface for web application",
-  "main": "index.js",
-  "bin": {
-    "vm": "./bin/index.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HosseiniShen/create-app.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HosseiniShen/create-app/issues"
-  },
-  "homepage": "https://github.com/HosseiniShen/create-app#readme",
-  "dependencies": {
-    "chalk": "^4.1.1",
-    "commander": "^7.2.0",
-    "ejs": "^3.1.6",
-    "execa": "^5.0.0",
-    "fs-extra": "^10.0.0",
-    "globby": "^11.0.3",
-    "isbinaryfile": "^4.0.8",
-    "javascript-stringify": "^2.1.0",
-    "js-yaml": "^4.1.0",
-    "lodash.clonedeep": "^4.5.0",
-    "node-fetch": "^2.6.1",
-    "slash": "3.0.0",
-    "strip-ansi": "6.0.0",
-    "vue-codemod": "^0.0.5"
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }
