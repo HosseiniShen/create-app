@@ -64,7 +64,7 @@ function getPromptModules () {
     'lint',
     'router',
     'vuex'
-  ].map(filename => require(`./promptModules/${ filename }`))
+  ].map(filename => require(`./promptModules/${ filename }`).initFeaturePrompt)
 }
 
 /**

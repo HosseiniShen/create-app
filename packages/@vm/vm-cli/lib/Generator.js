@@ -20,7 +20,7 @@ const writeFileTree = require('./utils/writeFileTree')
  * @description `generator` 
  */
 class Generator {
-  constructor (pkg, context) {
+  constructor (pkg, context, files) {
     this.pkg = pkg
     this.context = context
 
@@ -29,7 +29,7 @@ class Generator {
     this.configTransforms = {}
     this.fileMiddlewares = []
     this.entryFile = `src/main.js`
-    this.files = {}
+    this.files = files
   }
 
   /**

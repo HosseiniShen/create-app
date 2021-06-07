@@ -1,16 +1,8 @@
-module.exports = (api) => {
-  api.injectFeature({
-    name: 'Linter',
-    value: 'linter',
-    short: 'Linter',
-    description: 'Check and enforce code quality with ESLint or Prettier',
-    link: 'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint',
-    checked: true
-  })
+const injectPrompts = require('../utils/injectPrompts')
 
-  api.injectPrompt({
+exports.featurePrompts = [
+  {
     name: 'eslintConfig',
-    when: answers => answers.features.includes('linter'),
     type: 'list',
     message: 'Pick a linter config',
     description: 'Checking code errors and enforcing an homegeoneous code style',
@@ -26,12 +18,10 @@ module.exports = (api) => {
         short: 'Standard',
       },
     ]
-  })
-
-  api.injectPrompt({
+  },
+  {
     name: 'lintOn',
     message: 'Pick additional lint features:',
-    when: answers => answers.features.includes('linter'),
     type: 'checkbox',
     choices: [
       {
@@ -44,5 +34,18 @@ module.exports = (api) => {
         value: 'commit',
       },
     ]
+  }
+]
+
+exports.initFeaturePrompt = (api) => {
+  api.injectFeature({
+    name: 'Linter',
+    value: 'linter',
+    short: 'Linter',
+    description: 'Check and enforce code quality with ESLint or Prettier',
+    link: 'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint',
+    checked: true
   })
+
+  injectPrompts(api, exports.featurePrompts, 'linter')
 }

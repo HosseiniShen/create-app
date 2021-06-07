@@ -1,4 +1,4 @@
-module.exports = (api) => {
+exports.initFeaturePrompt = (api) => {
   api.injectFeature({
     name: 'Vuex',
     value: 'vuex',
