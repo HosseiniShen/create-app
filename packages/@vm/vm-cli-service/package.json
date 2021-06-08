@@ -1,0 +1,50 @@
+{
+  "name": "@vm/vm-cli-service",
+  "version": "1.0.0",
+  "description": "Build plugin for vm",
+  "keywords": [
+    "webpack"
+  ],
+  "author": "sxxRaul <975547545@qq.com>",
+  "homepage": "https://github.com/HosseiniShen/create-app#readme",
+  "license": "ISC",
+  "bin": {
+    "vm-cli-service": "bin/vm-cli-service.js"
+  },
+  "main": "lib/vm-cli-service.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HosseiniShen/create-app.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/HosseiniShen/create-app/issues"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^4.2.1",
+    "webpackbar": "^4.0.0"
+  }
+}

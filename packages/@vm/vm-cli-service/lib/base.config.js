@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const WebpackBar = require('webpackbar')
 
-const resolve = filePath => path.resolve(__dirname, filePath)
+const resolve = filePath => path.resolve(process.cwd(), filePath)
 
 module.exports = {
   entry: resolve('../src/main.js'),
@@ -18,21 +18,17 @@ module.exports = {
 
   module: {
     rules: [
-      <%_ if (lintOnSave) { _%>
       {
         enforce: 'pre',
         test: /\.(js|vue)$/,
         loader: 'eslint-loader',
         exclude: /node_modules/
       },
-      <%_ } _%>
-      <%_ if (hasBabel) { _%>
       {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/
       },
-      <%_ } _%>
       {
         test: /\.vue$/,
         loader: 'vue-loader',

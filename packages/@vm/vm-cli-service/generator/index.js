@@ -1,8 +1,8 @@
 module.exports = (generator, options = {}) => {
   generator.extendPackage({
     scripts: {
-      dev: 'webpack-dev-server --config ./build/dev.config.js',
-      build: 'webpack --config ./build/pro.config.js'
+      serve: 'vm-cli-service serve',
+      build: 'vm-cli-service build'
     },
     devDependencies: {
       'clean-webpack-plugin': '^3.0.0',
@@ -20,8 +20,8 @@ module.exports = (generator, options = {}) => {
     }
   })
 
-  generator.render('./template', {
-    hasBabel: options.features.includes('babel'),
-    lintOnSave: options.lintOn.includes('save'),
-  })
+  // generator.render('./template', {
+  //   hasBabel: options.features.includes('babel'),
+  //   lintOnSave: options.lintOn.includes('save'),
+  // })
 }
